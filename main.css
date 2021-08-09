@@ -168,10 +168,18 @@ we will stretch to full height 100% */
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
+/* html block products__desc should pop up when we hover the mouse */
+/* set it down and stretch it to the full width */
 .products__desc {
-  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 23px 30px;
+  background: rgba(35, 35, 35, 0.8);
 }
 
 .products__img {
