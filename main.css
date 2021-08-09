@@ -160,5 +160,22 @@ ul > li {
   margin-bottom: 35px;
 }
 
+/* inner  block products__content
+we will stretch to full height 100% */
+/* center contens on both axes*/
 .products__content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products__desc {
+  display: none;
+}
+
+.products__img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
 }
