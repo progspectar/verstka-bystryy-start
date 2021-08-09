@@ -199,4 +199,5 @@ we set the dimensions, so the link must be block */
   background: var(--black);
   color: var(--yellow);
   display: inline-block;
+  text-decoration: none;
 }
