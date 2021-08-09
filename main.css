@@ -180,10 +180,23 @@ we will stretch to full height 100% */
   right: 0;
   padding: 23px 30px;
   background: rgba(35, 35, 35, 0.8);
+  font-size: 15px;
+  color: white;
 }
 
 .products__img {
   display: block;
   max-width: 100%;
   max-height: 100%;
+}
+/* styling the button
+we set the dimensions, so the link must be block */
+.btn {
+  text-transform: uppercase;
+  font-family: val(--titlesFont);
+  font-size: 24px;
+  padding: 2px 30px;
+  background: var(--black);
+  color: var(--yellow);
+  display: inline-block;
 }
