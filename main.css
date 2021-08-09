@@ -169,10 +169,11 @@ we will stretch to full height 100% */
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 /* animation for products__desc */
-.products__item:hover . {
+.products__item:hover .products__desc {
   transform: translateY(0%);
 }
 /* html block products__desc should pop up when we hover the mouse */
@@ -214,4 +215,9 @@ we set the dimensions, so the link must be block */
   color: var(--yellow);
   display: inline-block;
   text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--red);
+  color: #fff;
 }
